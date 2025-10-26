@@ -1,7 +1,4 @@
 packages:
-  - 'packages/*'
-  - 'web'
-  - 'api'
-  - 'api-e2e'
-  - 'shared/*'
+  - 'apps/*'
+  - 'libs/**/*'
 autoInstallPeers: true

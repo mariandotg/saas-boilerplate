@@ -15,6 +15,10 @@
     "sharedGlobals": []
   },
   "nxCloudId": "68fd09405712427c3828d4eb",
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs"
+  },
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
@@ -46,7 +50,7 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["api-e2e/**/*"]
+      "exclude": ["apps/api-e2e/**/*"]
     },
     {
       "plugin": "@nx/eslint/plugin",

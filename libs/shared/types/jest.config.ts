@@ -1,4 +1,4 @@
-/* eslint-disable */
+ 
 import { readFileSync } from 'fs';
 
 // Reading the SWC compilation config for the spec files
@@ -10,8 +10,8 @@ const swcJestConfig = JSON.parse(
 swcJestConfig.swcrc = false;
 
 export default {
-  displayName: '@my-saas-boilerplate/api-client',
-  preset: '../../jest.preset.js',
+  displayName: '@my-saas-boilerplate/types',
+  preset: '../../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['@swc/jest', swcJestConfig],

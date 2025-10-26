@@ -4,19 +4,19 @@
   "files": [],
   "references": [
     {
-      "path": "./web"
+      "path": "./libs/shared/api-client"
     },
     {
-      "path": "./api-e2e"
+      "path": "./libs/shared/types"
     },
     {
-      "path": "./api"
+      "path": "./apps/api-e2e"
     },
     {
-      "path": "./shared/types"
+      "path": "./apps/api"
     },
     {
-      "path": "./shared/api-client"
+      "path": "./apps/web"
     }
   ]
 }
